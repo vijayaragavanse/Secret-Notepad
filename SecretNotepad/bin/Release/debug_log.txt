@@ -1,0 +1,245 @@
+11:02:55.906 - --- NEW QUESTION TRIGGERED ---
+11:02:55.932 - Audio captured successfully. Size: 5936698 bytes.
+11:02:55.943 - Sending payload to Gemini API...
+11:02:56.213 - Executing HTTP POST...
+11:04:36.248 - CRITICAL ERROR in ProcessAudio: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at SecretNotepad.MeetingAssistant.<AskGemini>d__15.MoveNext() in D:\rockvn-bot\Secret-Notepad\SecretNotepad\MeetingAssistant.cs:line 168
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at SecretNotepad.MeetingAssistant.<ProcessAudioWithGemini>d__14.MoveNext() in D:\rockvn-bot\Secret-Notepad\SecretNotepad\MeetingAssistant.cs:line 123
+11:04:36.251 - Stream reset. Listening for next question...
+11:39:59.219 - --- NEW QUESTION TRIGGERED ---
+11:39:59.341 - Audio compressed. Original: 5510458 bytes -> Optimized: 459252 bytes.
+11:39:59.343 - Sending optimized payload to Gemini API...
+11:39:59.472 - Executing HTTP POST...
+11:40:24.839 - --- NEW QUESTION TRIGGERED ---
+11:40:24.904 - Audio compressed. Original: 3648058 bytes -> Optimized: 304052 bytes.
+11:40:24.904 - Sending optimized payload to Gemini API...
+11:40:25.036 - Executing HTTP POST...
+11:40:28.465 - HTTP Status Code: OK
+11:40:28.465 - RAW API RESPONSE: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[No question detected]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 366,
+    "candidatesTokenCount": 5,
+    "totalTokenCount": 512,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 61
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 305
+      }
+    ],
+    "thoughtsTokenCount": 141
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "0SrCaYyfK5vbjuMPscnR8AM"
+}
+
+11:40:28.465 - Parsing JSON...
+11:40:28.492 - Parsed Text: [No question detected]
+11:40:28.492 - Gemini processing complete. Answer length: 0
+11:40:28.492 - Stream reset. Listening for next question...
+11:43:55.985 - --- NEW QUESTION TRIGGERED ---
+11:43:56.303 - Audio compressed. Original: 18359098 bytes -> Optimized: 1529972 bytes.
+11:43:56.306 - Sending optimized payload to Gemini API...
+11:43:56.313 - Executing HTTP POST...
+11:44:01.128 - HTTP Status Code: OK
+11:44:01.128 - RAW API RESPONSE: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[No question detected]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1591,
+    "candidatesTokenCount": 5,
+    "totalTokenCount": 1719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 61
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 1530
+      }
+    ],
+    "thoughtsTokenCount": 123
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "pSvCaanwApS94-EP0_2f2AE"
+}
+
+11:44:01.128 - Parsing JSON...
+11:44:01.128 - Parsed Text: [No question detected]
+11:44:01.128 - Gemini processing complete. Answer length: 0
+11:44:01.128 - Stream reset. Listening for next question...
+11:47:14.134 - --- NEW QUESTION TRIGGERED ---
+11:47:14.193 - Audio compressed. Original: 3229498 bytes -> Optimized: 269172 bytes.
+11:47:14.193 - Sending optimized payload to Gemini API...
+11:47:14.322 - Executing HTTP POST...
+11:47:18.432 - Gemini processing complete. Answer length: 0
+11:47:18.434 - Stream reset. Listening for next question...
+11:55:53.957 - --- NEW QUESTION TRIGGERED ---
+11:55:54.029 - Audio compressed. Original: 3521338 bytes -> Optimized: 293492 bytes.
+11:55:54.029 - Sending optimized payload to Gemini API...
+11:55:54.181 - Executing HTTP POST...
+11:55:58.157 - Gemini processing complete. Answer length: 0
+11:55:58.157 - Stream reset. Listening for next question...
+11:58:18.059 - --- NEW QUESTION TRIGGERED ---
+11:58:18.122 - Audio compressed. Original: 3448378 bytes -> Optimized: 287412 bytes.
+11:58:18.122 - Sending optimized payload to Gemini API...
+11:58:18.250 - Executing HTTP POST...
+11:58:22.392 - RAW API RESPONSE: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[GARBLED AUDIO]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 323,
+    "candidatesTokenCount": 6,
+    "totalTokenCount": 400,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 288
+      }
+    ],
+    "thoughtsTokenCount": 71
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "Ai_CaZKfN4ybjuMP-afnkQM"
+}
+
+11:58:22.423 - Gemini processing complete. Answer length: 15
+11:58:22.423 - Stream reset. Listening for next question...
+12:01:08.293 - --- NEW QUESTION TRIGGERED ---
+12:01:08.325 - Audio compressed. Original: 3671098 bytes -> Optimized: 305966 bytes.
+12:01:08.325 - Sending optimized payload to Gemini API...
+12:01:08.467 - Executing HTTP POST...
+12:01:13.582 - Gemini processing complete. Answer length: 361
+12:01:13.587 - Stream reset. Listening for next question...
+12:03:18.742 - --- NEW QUESTION TRIGGERED ---
+12:03:18.789 - Audio compressed. Original: 11504698 bytes -> Optimized: 958766 bytes.
+12:03:18.789 - Sending optimized payload to Gemini API...
+12:03:18.934 - Executing HTTP POST...
+12:03:24.676 - Gemini processing complete. Answer length: 204
+12:03:24.683 - Stream reset. Listening for next question...
+12:05:44.616 - --- NEW QUESTION TRIGGERED ---
+12:05:44.643 - Audio compressed. Original: 3713338 bytes -> Optimized: 309486 bytes.
+12:05:44.643 - Sending optimized payload to Gemini API...
+12:05:44.788 - Executing HTTP POST...
+12:05:50.109 - Gemini processing complete. Answer length: 573
+12:05:50.117 - Stream reset. Listening for next question...
+12:08:27.205 - --- NEW QUESTION TRIGGERED ---
+12:08:27.237 - Audio compressed. Original: 4723258 bytes -> Optimized: 393646 bytes.
+12:08:27.237 - Sending optimized payload to Gemini API...
+12:08:27.369 - Executing HTTP POST...
+12:08:35.841 - Gemini processing complete. Answer length: 448
+12:08:35.844 - Stream reset. Listening for next question...
+12:08:44.510 - --- SESSION MEMORY CLEARED ---
+12:09:33.928 - --- NEW QUESTION TRIGGERED ---
+12:09:33.941 - Audio compressed. Original: 879418 bytes -> Optimized: 73326 bytes.
+12:09:33.941 - Sending optimized payload to Gemini API...
+12:09:33.945 - Executing HTTP POST...
+12:09:42.573 - Gemini processing complete. Answer length: 0
+12:09:42.573 - Stream reset. Listening for next question...
+12:10:08.942 - --- NEW QUESTION TRIGGERED ---
+12:10:08.945 - Audio compressed. Original: 1105978 bytes -> Optimized: 92206 bytes.
+12:10:08.945 - Sending optimized payload to Gemini API...
+12:10:08.945 - Executing HTTP POST...
+12:10:12.655 - Gemini processing complete. Answer length: 0
+12:10:12.655 - Stream reset. Listening for next question...
+12:10:29.261 - --- NEW QUESTION TRIGGERED ---
+12:10:29.261 - Audio compressed. Original: 299578 bytes -> Optimized: 25006 bytes.
+12:10:29.261 - Sending optimized payload to Gemini API...
+12:10:29.265 - Executing HTTP POST...
+12:10:33.507 - Gemini processing complete. Answer length: 0
+12:10:33.507 - Stream reset. Listening for next question...
+12:10:59.327 - --- NEW QUESTION TRIGGERED ---
+12:10:59.333 - Audio compressed. Original: 1459258 bytes -> Optimized: 121646 bytes.
+12:10:59.333 - Sending optimized payload to Gemini API...
+12:10:59.337 - Executing HTTP POST...
+12:11:03.597 - Gemini processing complete. Answer length: 0
+12:11:03.597 - Stream reset. Listening for next question...
+12:11:34.341 - --- NEW QUESTION TRIGGERED ---
+12:11:34.346 - Audio compressed. Original: 1002298 bytes -> Optimized: 83566 bytes.
+12:11:34.348 - Sending optimized payload to Gemini API...
+12:11:34.348 - Executing HTTP POST...
+12:11:40.968 - Gemini processing complete. Answer length: 413
+12:11:40.984 - Stream reset. Listening for next question...
+12:11:45.283 - --- SESSION MEMORY CLEARED ---
+12:12:12.841 - --- NEW QUESTION TRIGGERED ---
+12:12:12.849 - Audio compressed. Original: 1225018 bytes -> Optimized: 102126 bytes.
+12:12:12.849 - Sending optimized payload to Gemini API...
+12:12:12.849 - Executing HTTP POST...
+12:12:17.109 - Gemini processing complete. Answer length: 672
+12:12:17.109 - Stream reset. Listening for next question...
+12:12:57.773 - --- NEW QUESTION TRIGGERED ---
+12:12:57.779 - Audio compressed. Original: 1497658 bytes -> Optimized: 124846 bytes.
+12:12:57.779 - Sending optimized payload to Gemini API...
+12:12:57.779 - Executing HTTP POST...
+12:13:01.681 - Gemini processing complete. Answer length: 403
+12:13:01.697 - Stream reset. Listening for next question...
+12:13:52.471 - --- NEW QUESTION TRIGGERED ---
+12:13:52.477 - Audio compressed. Original: 829498 bytes -> Optimized: 69166 bytes.
+12:13:52.479 - Sending optimized payload to Gemini API...
+12:13:52.479 - Executing HTTP POST...
+12:14:00.105 - Gemini processing complete. Answer length: 0
+12:14:00.105 - Stream reset. Listening for next question...
+12:14:25.453 - --- NEW QUESTION TRIGGERED ---
+12:14:25.464 - Audio compressed. Original: 1601338 bytes -> Optimized: 133486 bytes.
+12:14:25.464 - Sending optimized payload to Gemini API...
+12:14:25.466 - Executing HTTP POST...
+12:14:25.988 - Gemini processing complete. Answer length: 15
+12:14:25.991 - Stream reset. Listening for next question...
+12:15:03.600 - --- SESSION MEMORY CLEARED ---
+12:15:15.621 - --- NEW QUESTION TRIGGERED ---
+12:15:15.628 - Audio compressed. Original: 2188858 bytes -> Optimized: 182446 bytes.
+12:15:15.628 - Sending optimized payload to Gemini API...
+12:15:15.628 - Executing HTTP POST...
+12:15:24.966 - Gemini processing complete. Answer length: 1102
+12:15:24.969 - Stream reset. Listening for next question...
